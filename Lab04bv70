@@ -1,0 +1,66 @@
+
+import java.awt.*;
+import java.applet.*;
+
+public class Lab04bv70 extends Applet
+{ 
+    public void paint(Graphics g)
+    {
+        //Draw Cube
+        g.drawLine(50,50,300,50);
+        g.drawLine(300,50,300,325);
+        g.drawLine(300,325,50,325);
+        g.drawLine(50,325,50,50);
+        g.drawLine(50,50,150,150);
+        g.drawLine(300,50,400,150);
+        g.drawLine(50,325,150,425);
+        g.drawLine(300,325,400,425);
+        g.drawLine(150,150,400,150);
+        g.drawLine(400,150,400,425);
+        g.drawLine(400,425,150,425);
+        g.drawLine(150,425,150,150);
+        //Draw A of APCS
+        g.drawLine(50,600,50,475);
+        g.drawLine(50,475,125,475);
+        g.drawLine(125,475,125,600);
+        g.drawLine(125,600,100,600);
+        g.drawLine(100,600,100,550);
+        g.drawLine(100,550,75,550);
+        g.drawLine(75,550,75,600);
+        g.drawLine(75,600,50,600);
+        g.drawRect(75,500,25,25); 
+        //Draw P of APCS
+        g.drawLine(150,600,150,475);
+        g.drawLine(150,475,225,475);
+        g.drawLine(225,475,225,550); 
+        g.drawLine(225,550,175,550);
+        g.drawLine(175,550,175,600);
+        g.drawLine(175,600,150,600);
+        g.drawRect(175,500,25,25);
+        //Draw C of APCS
+        g.drawLine(250,475,325,475);
+        g.drawLine(325,475,325,500);
+        g.drawLine(325,500,275,500);
+        g.drawLine(275,500,275,575);
+        g.drawLine(275,575,325,575);
+        g.drawLine(325,575,325,600);
+        g.drawLine(325,600,250,600);
+        g.drawLine(250,600,250,475);
+        //Draw S of APCS
+        g.drawLine(350,475,425,475);
+        g.drawLine(425,475,425,500);
+        g.drawLine(425,500,375,500);
+        g.drawLine(375,500,375,525);
+        g.drawLine(375,525,425,525);
+        g.drawLine(425,525,425,600);
+        g.drawLine(425,600,350,600);
+        g.drawLine(350,600,350,575);
+        g.drawLine(350,575,400,575);
+        g.drawLine(400,575,400,550);
+        g.drawLine(400,550,350,550);
+        g.drawLine(350,550,350,475);
+        
+     
+        
+    }
+}
